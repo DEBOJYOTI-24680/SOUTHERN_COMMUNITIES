@@ -1,0 +1,735 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .header-sec{
+        position: relative;
+        padding-block: 22px;
+        background-color: var(--third-color);
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-logo{
+        width: 123px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 98px;
+        padding: 16px 0;
+        background-color: var(--third-color);
+        display: none;
+        z-index: 5;
+    }
+    .nav-links li{
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 24px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 32px;
+    }
+    .banner-child span{
+        font-size: 13px;
+    }
+    .banner-child h2{
+        font-size: 22px;
+    }
+    .banner-child p{
+        font-size: 13px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 13px;
+        padding: 13px 23px 12px 22px;
+    }
+    .about-sec{
+        padding-block: 60px;
+    }
+    .about-child{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about-head{
+        width: 100%;
+        text-align: center;
+    }
+    .about-head span{
+        font-size: 13px;
+    }
+    .about-head h2{
+        font-size: 22px;
+    }
+    .about-left img{
+        margin-bottom: 30px;
+    }
+    .about-right p{
+        font-size: 13px;
+    }
+    .about-right .cmn-btn{
+        font-size: 13px;
+        padding: 13px 20px 14px 21px;
+    }
+    .card-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card-head span{
+        font-size: 13px;
+    }
+    .card-head h2{
+        font-size: 22px;
+    }
+    .cmn-card{
+        margin-bottom: 30px;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .card-title h3{
+        font-size: 18px;
+    }
+    .card-title p{
+        font-size: 13px;
+    }
+    .card-head .cmn-btn{
+        font-size: 13px;
+        padding: 13px 20px 14px 21px;
+        margin-bottom: 30px;
+    }
+    .card-text{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .card-btn{
+        margin: 0 0 20px;
+        padding: 12px;
+    }
+    .blog-sec{
+        padding: 73px 0 87px;
+    }
+    .blog-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-blog{
+        margin: 0 auto;
+    }
+    .blog-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .blog-left span, p{
+        font-size: 13px;
+    }
+    .blog-left h2{
+        font-size: 22px;
+    }
+    .blog-right .cmn-btn{
+        font-size: 13px;
+        padding: 13px 24px 14px;
+    }
+    .blog-child a{
+        width: 100%;
+        margin: 0 0 24px;
+    }
+    .blog-text span{
+        font-size: 13px;
+    }
+    .blog-text h3{
+        font-size: 17px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cmn-footer{
+        width: 100%;
+    }
+    .footer-sec{
+        padding-top: 40px;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 160px;
+    }
+    .footer-medias{
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+    }
+    .footer-head{
+        font-size: 16px;
+    }
+    .footer-links li{
+        font-size: 14px;
+    }
+    .footer-title p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-sec{
+        position: relative;
+        padding-block: 22px;
+        background-color: var(--third-color);
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-logo{
+        width: 143px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 110px;
+        padding: 16px 0;
+        background-color: var(--third-color);
+        display: none;
+        z-index: 5;
+    }
+    .nav-links li{
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 25px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 42px;
+    }
+    .banner-child span{
+        font-size: 14px;
+    }
+    .banner-child h2{
+        font-size: 25px;
+    }
+    .banner-child p{
+        font-size: 14px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 14px;
+        padding: 14px 26px 13px 25px;
+    }
+    .about-sec{
+        padding-block: 80px;
+    }
+    .about-child{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+    }
+    .about-head{
+        width: 100%;
+        text-align: center;
+    }
+    .about-head span{
+        font-size: 14px;
+    }
+    .about-head h2{
+        font-size: 25px;
+    }
+    .about-left img{
+        margin-bottom: 30px;
+    }
+    .about-right p{
+        font-size: 14px;
+    }
+    .about-right .cmn-btn{
+        font-size: 14px;
+        padding: 14px 22px 13px 21px;
+    }
+    .card-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card-head span{
+        font-size: 14px;
+    }
+    .card-head h2{
+        font-size: 25px;
+    }
+    .cmn-card{
+        margin-bottom: 30px;
+    }
+    .card-title h3{
+        font-size: 20px;
+    }
+    .card-title p{
+        font-size: 14px;
+    }
+    .card-head .cmn-btn{
+        font-size: 14px;
+        padding: 14px 22px 13px 23px;
+        margin-bottom: 30px;
+    }
+    .card-btn{
+        padding: 14px;
+    }
+    .blog-sec{
+        padding: 83px 0 97px;
+    }
+    .blog-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-blog{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .blog-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto 40px;
+        width: 80%;
+    }
+    .blog-left span, p{
+        font-size: 14px;
+    }
+    .blog-left h2{
+        font-size: 24px;
+    }
+    .blog-right .cmn-btn{
+        font-size: 14px;
+        padding: 14px 28px 13px;
+    }
+    .blog-child a{
+        width: 100%;
+        margin: 0 0 24px;
+    }
+    .blog-text span{
+        font-size: 14px;
+    }
+    .blog-text h3{
+        font-size: 18px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cmn-footer{
+        width: 100%;
+    }
+    .footer-sec{
+        padding-top: 40px;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 180px;
+    }
+    .footer-medias{
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+    }
+    .footer-head{
+        font-size: 17px;
+    }
+    .footer-links li{
+        font-size: 15px;
+    }
+    .footer-title p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-sec{
+        position: relative;
+        padding-block: 22px;
+        background-color: var(--third-color);
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-logo{
+        width: 153px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 110px;
+        padding: 16px 0;
+        background-color: var(--third-color);
+        display: none;
+        z-index: 5;
+    }
+    .nav-links li{
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 25px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 52px;
+    }
+    .banner-child span{
+        font-size: 15px;
+    }
+    .banner-child h2{
+        font-size: 28px;
+    }
+    .banner-child p{
+        font-size: 15px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 15px;
+        padding: 15px 28px 14px 27px;
+    }
+    .about-sec{
+        padding-block: 80px;
+    }
+    .about-child{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+    }
+    .about-head{
+        width: 100%;
+        text-align: center;
+    }
+    .about-head span{
+        font-size: 15px;
+    }
+    .about-head h2{
+        font-size: 28px;
+    }
+    .about-left img{
+        margin-bottom: 30px;
+    }
+    .about-right p{
+        font-size: 15px;
+    }
+    .about-right .cmn-btn{
+        font-size: 15px;
+        padding: 15px 23px 14px 24px;
+    }
+    .card-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-head{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card-head span{
+        font-size: 15px;
+    }
+    .card-head h2{
+        font-size: 28px;
+    }
+    .cmn-card{
+        margin-bottom: 30px;
+    }
+    .card-title h3{
+        font-size: 22px;
+    }
+    .card-title p{
+        font-size: 15px;
+    }
+    .card-head .cmn-btn{
+        font-size: 15px;
+        padding: 15px 24px 14px 25px;
+        margin-bottom: 30px;
+    }
+    .card-btn{
+        padding: 16px;
+    }
+    .blog-sec{
+        padding: 93px 0 107px;
+    }
+    .blog-head{
+        flex-direction: column;
+        margin: 0 auto 40px;
+        text-align: center;
+        width: 80%;
+    }
+    .blog-left span, p{
+        font-size: 15px;
+    }
+    .blog-left h2{
+        font-size: 28px;
+    }
+    .blog-right .cmn-btn{
+        font-size: 15px;
+        padding: 15px 30px 14px;
+    }
+    .blog-child a{
+        flex-basis: calc(50% - 12px);
+        margin-bottom: 18px;
+    }
+    .blog-text span{
+        font-size: 15px;
+    }
+    .blog-text h3{
+        font-size: 19px;
+    }
+    .cmn-footer{
+        width: 50%;
+    }
+    .footer-sec{
+        padding-top: 60px;
+    }
+    .footer-logo{
+        width: 200px;
+    }
+    .footer-medias{
+        align-items: center;
+        padding: 7px;
+    }
+    .footer-head{
+        font-size: 18px;
+    }
+    .footer-links li{
+        font-size: 16px;
+    }
+    .footer-title p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-sec{
+        position: relative;
+        padding-block: 22px;
+        background-color: var(--third-color);
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-logo{
+        width: 163px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        padding: 16px 0;
+        background-color: var(--third-color);
+        display: none;
+        z-index: 5;
+    }
+    .nav-links li{
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 62px;
+    }
+    .banner-child span{
+        font-size: 16px;
+    }
+    .banner-child h2{
+        font-size: 32px;
+    }
+    .banner-child p{
+        font-size: 16px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 16px;
+        padding: 16px 33px 15px 32px;
+    }
+    .about-sec{
+        padding-block: 100px;
+    }
+    .about-child{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .about-right{
+        width: 90%;
+    }
+    .about-head{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .about-head span{
+        font-size: 16px;
+    }
+    .about-head h2{
+        font-size: 30px;
+    }
+    .about-left img{
+        margin-bottom: 40px;
+    }
+    .about-right p{
+        font-size: 16px;
+    }
+    .about-right .cmn-btn{
+        font-size: 16px;
+        padding: 16px 25px 15px 26px;
+    }
+    .card-head span{
+        font-size: 16px;
+    }
+    .card-head h2{
+        font-size: 30px;
+    }
+    .cmn-card{
+        flex-basis: calc(50% - 5px);
+        margin-bottom: 10px;
+    }
+    .card-title h3{
+        font-size: 24px;
+    }
+    .card-title p{
+        font-size: 16px;
+    }
+    .card-head .cmn-btn{
+        font-size: 16px;
+        padding: 16px 25px 15px 26px;
+        margin-bottom: 30px;
+    }
+    .card-btn{
+        padding: 17px;
+    }
+    .blog-sec{
+        padding: 93px 0 107px;
+    }
+    .blog-head{
+        justify-content: center;
+    }
+    .blog-left{
+        flex-basis: 55%;
+    }
+    .blog-right{
+        flex-basis: 30%;
+    }
+    .blog-left span, p{
+        font-size: 16px;
+    }
+    .blog-left h2{
+        font-size: 32px;
+    }
+    .blog-right .cmn-btn{
+        font-size: 16px;
+        padding: 16px 34px 15px;
+    }
+    .blog-child a{
+        flex-basis: calc(50% - 0px);
+        margin-bottom: 25px;
+    }
+    .cmn-blog{
+        margin: 0 auto;
+    }
+    .blog-text span{
+        font-size: 16px;
+    }
+    .blog-text h3{
+        font-size: 20px;
+    }
+    .cmn-footer{
+        width: 50%;
+    }
+    .footer-sec{
+        padding-top: 70px;
+    }
+    .footer-logo{
+        width: 210px;
+    }
+    .footer-medias{
+        align-items: center;
+        padding: 8px;
+    }
+    .footer-head{
+        font-size: 20px;
+    }
+    .footer-links li{
+        font-size: 16px;
+    }
+    .footer-title p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .header-sec{
+        position: relative;
+        padding-block: 22px;
+        background-color: var(--third-color);
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-logo{
+        width: 163px;
+    }
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        padding: 16px 0;
+        background-color: var(--third-color);
+        display: none;
+        z-index: 5;
+    }
+    .nav-links li{
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+    }
+}
